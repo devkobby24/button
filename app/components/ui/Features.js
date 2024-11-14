@@ -105,11 +105,11 @@ const Features = () => {
             width={600}
             height={400}
           />
-          <div className="md:space-y-8 space-y-4 flex-col items-center md:items-start">
+          <div className="md:space-y-8 space-y-4 flex flex-col items-center md:items-start">
             <h1 className="font-bold text-2xl md:text-4xl text-center md:text-start">
               Make a Difference with Every Swipe
             </h1>
-            <hr className="h-4 border-black" />
+            <hr className="h-4 border-black w-full" />
             <p className="text-sm text-center md:text-start">
               Your purchases have the power to change lives. With Button, you
               can support the causes you're passionate about and build a better
