@@ -13,12 +13,12 @@ const Features = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center">
       {/* First section */}
-      <div className="grid grid-cols-3 items-center justify-center gap-5 m-6">
-        <div className="flex flex-col items-start space-y-10  lg:p-6">
-          <h1 className="text-5xl font-bold ">
+      <div className="grid md:grid-cols-3 grid-cols-1 items-center justify-center gap-5 m-6">
+        <div className="flex flex-col md:items-start items-center space-y-5 md:space-y-10  lg:p-6">
+          <h1 className="md:md:text-5xl md:text-start text-center text-2xl font-bold p-4">
             Personalized Credit, Just for You!
           </h1>
-          <p className=" text-sm ">
+          <p className="text-sm text-center md:text-start">
             We look beyond traditional credit scores to understand your true
             financial potential.
             <br /> Get the credit you deserve, not just what the system allows.
@@ -62,10 +62,10 @@ const Features = () => {
             width={400}
             height={200}
           />
-          <h1 className="text-5xl font-bold">
+          <h1 className="md:text-5xl text-2xl md:text-start text-center font-bold">
             Rewards That Fit Your Lifestyle
           </h1>
-          <p className=" text-sm">
+          <p className="md:text-start text-center text-sm">
             Turn everyday spending into extraordinary experiences. Earn buttons
             (points) on every purchase and unlock a world of rewards, from
             travel and cashback to discounts on the latest gadgets.
@@ -75,20 +75,20 @@ const Features = () => {
 
       {/* Features Bar */}
       <div className="h-40 mt-10 bg-gradient-to-r from-teal-900 to-teal-600 w-full flex items-center justify-center rounded-3xl">
-        <ul className="grid grid-cols-4 items-center justify-center gap-5 w-full">
-          <li className="flex flex-col text-gray-300 font-semibold text-lg text-center items-center justify-center">
+        <ul className="grid md:grid-cols-4 grid-cols-2 items-center justify-center gap-5 w-full">
+          <li className="flex flex-col text-gray-300 font-semibold text-xs md:text-lg text-center items-center justify-center">
             <User color="white" className="flex" />
             Sign up easily
           </li>
-          <li className="flex flex-col text-gray-300 font-semibold text-lg text-center items-center justify-center">
+          <li className="flex flex-col text-gray-300 font-semibold text-xs md:text-lg text-center items-center justify-center">
             <IdCard color="white" className="flex" />
             Start spending with your virtual card
           </li>
-          <li className="flex flex-col text-gray-300 font-semibold text-lg text-center items-center justify-center">
+          <li className="flex flex-col text-gray-300 font-semibold text-xs md:text-lg text-center items-center justify-center">
             <HandCoinsIcon color="white" className="flex" />
             Manage your finances
           </li>
-          <li className="flex flex-col text-gray-300 font-semibold text-lg text-center items-center justify-center">
+          <li className="flex flex-col text-gray-300 font-semibold text-xs md:text-lg text-center items-center justify-center">
             <TrendingUp color="white" className="flex" />
             Grow with Button
           </li>
@@ -97,7 +97,7 @@ const Features = () => {
 
       {/* Second section */}
       <div className="flex flex-col">
-        <div className="grid grid-cols-2 gap-6 items-center justify-center p-6 w-[700px] h-[600px]">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-6 items-center justify-center p-6 md:w-[700px] md:h-[600px]">
           <Image
             src="/theboy.webp"
             alt="Thebot"
@@ -105,12 +105,12 @@ const Features = () => {
             width={600}
             height={400}
           />
-          <div className="space-y-8">
-            <h1 className="font-bold text-4xl">
+          <div className="md:space-y-8 space-y-4 flex-col items-center md:items-start">
+            <h1 className="font-bold text-2xl md:text-4xl text-center md:text-start">
               Make a Difference with Every Swipe
             </h1>
             <hr className="h-4 border-black" />
-            <p className="text-start text-sm">
+            <p className="text-sm text-center md:text-start">
               Your purchases have the power to change lives. With Button, you
               can support the causes you're passionate about and build a better
               future for Africa
@@ -125,12 +125,12 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="space-y-8 bg-gradient-to-b from-teal-900 to-teal-600 rounded-2xl p-10">
-          <span className="text-5xl text-gray-200 font-bold">
+        <div className="md:space-y-8 space-y-4 bg-gradient-to-b from-teal-900 to-teal-600 rounded-3xl md:rounded-2xl p-10 flex flex-col items-center md:items-start">
+          <span className="md:text-5xl text-3xl md:text-start text-center text-gray-200 font-bold">
             Live your dreams<span className="text-orange-300"> today</span>
           </span>
 
-          <p className="font-bold text-lg text-gray-200">
+          <p className="font-bold text-sm md:text-lg text-gray-200 md:text-start">
             Button is more than just a credit card.
             <br />
             It's the key to your financial future
