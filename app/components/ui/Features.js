@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import Image from "next/image";
 import {
-  ChartBarIncreasing,
   HandCoinsIcon,
   IdCard,
   TrendingUp,
@@ -14,20 +13,20 @@ const Features = () => {
     <div className="w-full flex flex-col items-center justify-center">
       {/* First section */}
       <div className="grid md:grid-cols-3 grid-cols-1 items-center justify-center gap-5 m-6">
-        <div className="flex flex-col md:items-start items-center space-y-5 md:space-y-10  lg:p-6">
+        <div className="flex flex-col md:items-start items-center space-y-5 md:space-y-10 lg:p-6">
           <h1 className="md:md:text-5xl md:text-start text-center text-2xl font-bold p-4">
-            Personalized Credit, Just for You!
+            Personalized Credit &ndash; Just for You
           </h1>
           <p className="text-sm text-center md:text-start">
             We look beyond traditional credit scores to understand your true
             financial potential.
-            <br /> Get the credit you deserve, not just what the system allows.
+            <br /> Get the credit you deserve &ndash; not just what the system allows.
           </p>
           <div className="bg-teal-800 p-4 rounded-xl text-gray-300 text-center w-40">
             Pay Bills
           </div>
 
-          <div className=" grid grid-cols-3 items-center justify-center gap-4">
+          <div className="grid grid-cols-3 items-center justify-center gap-4">
             <Image
               className="shadow-xl shadow-gray-500 rounded-lg"
               src="/apple.png"
@@ -54,7 +53,7 @@ const Features = () => {
 
         <div className=""></div>
 
-        <div className=" flex flex-col space-y-10">
+        <div className="flex flex-col space-y-10">
           <Image
             src="/credit.webp"
             alt="Credit"
@@ -67,7 +66,7 @@ const Features = () => {
           </h1>
           <p className="md:text-start text-center text-sm">
             Turn everyday spending into extraordinary experiences. Earn buttons
-            (points) on every purchase and unlock a world of rewards, from
+            (points) on every purchase and unlock a world of rewards &ndash; from
             travel and cashback to discounts on the latest gadgets.
           </p>
         </div>
@@ -112,8 +111,8 @@ const Features = () => {
             <hr className="h-4 border-black w-full" />
             <p className="text-sm text-center md:text-start">
               Your purchases have the power to change lives. With Button, you
-              can support the causes you're passionate about and build a better
-              future for Africa
+              can support the causes you&apos;re passionate about and build a better
+              future for Africa.
             </p>
             <Button
               size="lg"
@@ -133,7 +132,7 @@ const Features = () => {
           <p className="font-bold text-sm md:text-lg text-gray-200 md:text-start">
             Button is more than just a credit card.
             <br />
-            It's the key to your financial future
+            It&rsquo;s the key to your financial future.
           </p>
 
           <Button

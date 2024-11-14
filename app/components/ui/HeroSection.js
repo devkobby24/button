@@ -12,7 +12,7 @@ const HeroSection = () => {
         The Credit Card That Grows with You
       </h1>
       <p className="text-center font-xl font-semibold">
-        Button is the first non-bank credit card built for Africa's 
+        Button is the first non-bank credit card built for Africa&apos;s 
         dreamers and doers.
       </p>
       <Button
