@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div
       id="hero"
-      className="w-full flex flex-col pt-10 items-center font-sans justify-center md:space-y-20 space-y-10"
+      className="w-full flex flex-col pt-10 items-center justify-center md:space-y-20 space-y-10"
     >
       <h1 className="text-teal-800 font-bold md:text-6xl text-3xl text-center p-4">
         The Credit Card That Grows with You

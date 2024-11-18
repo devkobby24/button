@@ -6,7 +6,7 @@ import Footer from './components/ui/Footer'
 
 const page = () => {
   return (
-    <div className='font-sans min-h-[100vh]'>
+    <div className='min-h-[100vh]'>
       <Header />
       <HeroSection />
       <Features />

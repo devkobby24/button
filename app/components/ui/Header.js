@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="flex items-center justify-between space-x-5 p-6 font-sans">
+    <nav className="flex items-center justify-between space-x-5 p-6">
       <div>
         <Button variant="outline" className="bg-white border-0 text-teal-700 rounded-full">
           Button

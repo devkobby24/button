@@ -28,7 +28,7 @@ const Footer = () => {
           <Image src="/linkedin.svg" alt="LinkedIn" width={50} height={50} />
         </a>
       </div>
-      <span className="text-gray-300 font-sans"> Button Credit, 2024.</span>
+      <span className="text-gray-300"> Button Credit, 2024.</span>
     </div>
   );
 };
