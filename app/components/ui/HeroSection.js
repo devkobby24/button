@@ -29,6 +29,7 @@ const HeroSection = () => {
           height={600}
           width={400}
           className="h-auto z-50 w-auto md:w-[663px]"
+          loading="eager"
         />
         <div className="h-40 bg-gradient-to-r from-teal-900 to-teal-600 w-full flex items-center justify-center rounded-b-3xl">
           <ul className="grid md:grid-cols-4 grid-cols-2 items-center justify-center gap-5 w-full">
