@@ -21,7 +21,13 @@ const Features = () => {
           <div className="bg-teal-900 p-4 rounded-xl text-gray-300 text-center h-15 w-30">
             Pay Bills
           </div>
-          <Image src="/billing.png" alt="billing" width={500} height={500} className="md:-ml-4" />
+          <Image
+            src="/billing.png"
+            alt="billing"
+            width={456}
+            height={210}
+            className="md:-ml-4 h-auto w-auto"
+          />
         </div>
 
         <div className="lg:h-[1000px] lg:w-[590px] px-10 md:px-0">
@@ -50,19 +56,19 @@ const Features = () => {
       <div className="h-40 bg-gradient-to-r from-teal-900 to-teal-600 w-full flex items-center justify-center rounded-3xl">
         <ul className="grid md:grid-cols-4 grid-cols-2 items-center justify-center gap-5 w-full">
           <li className="flex flex-col text-gray-300 font-semibold text-xs md:text-lg text-center items-center justify-center">
-            <User color="white" className="flex" />
+            <User color="white" />
             Sign up easily
           </li>
           <li className="flex flex-col text-gray-300 font-semibold text-xs md:text-lg text-center items-center justify-center">
-            <IdCard color="white" className="flex" />
+            <IdCard color="white" />
             Start spending with your virtual card
           </li>
           <li className="flex flex-col text-gray-300 font-semibold text-xs md:text-lg text-center items-center justify-center">
-            <HandCoinsIcon color="white" className="flex" />
+            <HandCoinsIcon color="white" />
             Manage your finances
           </li>
           <li className="flex flex-col text-gray-300 font-semibold text-xs md:text-lg text-center items-center justify-center">
-            <TrendingUp color="white" className="flex" />
+            <TrendingUp color="white" />
             Grow with Button
           </li>
         </ul>

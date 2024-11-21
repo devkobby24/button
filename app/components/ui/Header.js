@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <nav className="flex items-center justify-between space-x-5 p-6">
       <div className="cursor-pointer h-auto w-auto -mb-5">
-        <Image src={'/logo.png'} width={120} height={100} alt="logo"/>
+        <Image src={"/logo.png"} width={120} height={100} alt="logo" />
       </div>
       <ul className="list-none flex items-center justify-between space-x-1 md:space-x-3">
         <li>
@@ -28,7 +28,9 @@ const Header = () => {
           </Button>
         </li>
         <li>
-          <Button size="sm" className="bg-teal-800 rounded-full text-xs">Apply Now</Button>
+          <Button size="sm" className="bg-teal-800 rounded-full text-xs">
+            Apply Now
+          </Button>
         </li>
       </ul>
     </nav>
