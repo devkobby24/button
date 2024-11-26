@@ -8,7 +8,7 @@ const Features = () => {
     <div className="w-full flex flex-col items-center justify-center">
       {/* First section */}
       <div className="grid md:grid-cols-3 grid-cols-1 items-center justify-center gap-5 md:px-16 max-w-screen-lg md:max-h-[1200px]">
-        <div className="flex flex-col md:items-start items-center space-y-5 md:space-y-10 lg:p-6 md:mt-20">
+        <div className="flex flex-col md:items-start items-center space-y-5 lg:p-6 md:mt-20">
           <h1 className="md:text-4xl md:text-start text-center text-2xl font-bold mt-10 px-10 md:px-0">
             Personalized Credit, Just for You!
           </h1>
@@ -26,11 +26,11 @@ const Features = () => {
             alt="billing"
             width={456}
             height={210}
-            className="md:-ml-4 h-auto w-auto"
+            className="md:-ml-4 object-cover"
           />
         </div>
 
-        <div className="lg:h-[1000px] lg:w-[590px] px-10 md:px-0">
+        <div className="md:h-[1000px] md:w-[590px] px-10 md:px-0">
           <Image
             alt="holdcard"
             src={"/holdcard.png"}
@@ -40,7 +40,7 @@ const Features = () => {
           />
         </div>
 
-        <div className="flex flex-col space-y-10 md:mt-40 md:pl-10 mb-6">
+        <div className="flex flex-col space-y-5 md:mt-48 md:pl-20 mb-6">
           <h1 className="md:text-4xl text-2xl md:text-start text-center font-bold px-10 md:px-0">
             Rewards That Fit Your Lifestyle
           </h1>

@@ -18,20 +18,20 @@ const HeroSection = () => {
       </p>
       <Button
         size="sm"
-        className="bg-teal-800 font-normal md:w-30 text-gray-300 p-5 rounded-full"
+        className="bg-teal-800 md:w-30 text-sm text-gray-200 p-5 rounded-full"
       >
         Start Your Journey
       </Button>
-      <div className="flex flex-col w-full items-center">
+      <div className="flex z-0 flex-col w-full items-center">
         <Image
           src={"/bgcards.png"}
           alt="cards"
           height={600}
           width={400}
-          className="h-auto z-50 w-auto md:w-[663px]"
+          className="h-auto z-0 w-auto md:w-[663px]"
           loading="eager"
         />
-        <div className="h-40 bg-gradient-to-r from-teal-900 to-teal-600 w-full flex items-center justify-center rounded-b-3xl">
+        <div className="h-40 z-10 bg-gradient-to-r from-teal-900 to-teal-600 w-full flex items-center justify-center rounded-b-3xl">
           <ul className="grid md:grid-cols-4 grid-cols-2 items-center justify-center gap-5 w-full">
             <li className="flex flex-col text-gray-300 font-semibold text-xs md:text-lg text-center items-center justify-center">
               <DollarSignIcon color="white" className="flex" />

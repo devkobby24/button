@@ -13,7 +13,7 @@ const Header = () => {
           <Button
             variant="outline"
             size="sm"
-            className="border-0 hover:border-2 text-teal-700 rounded-full hidden md:block"
+            className="border-0 hover:border-2 md:text-sm text-teal-700 rounded-full hidden md:block"
           >
             Home
           </Button>
@@ -22,13 +22,13 @@ const Header = () => {
           <Button
             variant="outline"
             size="sm"
-            className="border-0 hover:border-2 text-teal-700 rounded-full hidden md:block"
+            className="border-0 hover:border-2 md:text-sm text-teal-700 rounded-full hidden md:block"
           >
             Features
           </Button>
         </li>
         <li>
-          <Button size="sm" className="bg-teal-800 rounded-full text-xs">
+          <Button size="sm" className="bg-teal-800 md:text-sm rounded-full text-xs">
             Apply Now
           </Button>
         </li>
