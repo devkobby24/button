@@ -41,10 +41,10 @@ const Features = () => {
         </div>
 
         <div className="flex flex-col space-y-5 md:mt-64 md:pl-20 mb-6">
-          <h1 className="md:text-4xl text-2xl md:text-start text-center font-bold px-10 md:px-0">
+          <h1 className="md:text-4xl text-2xl md:text-start text-center font-bold px-10 md:px-0 md:-ml-10">
             Rewards That Fit Your Lifestyle
           </h1>
-          <p className="md:text-start text-center text-sm md:text-lg px-10 md:px-0">
+          <p className="md:text-start text-center text-sm md:text-lg px-10 md:px-0 md:-ml-10">
             Turn everyday spending into extraordinary experiences. Earn buttons
             (points) on every purchase and unlock a world of rewards &ndash;
             from travel and cashback to discounts on the latest gadgets.
