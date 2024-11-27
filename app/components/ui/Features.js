@@ -26,7 +26,7 @@ const Features = () => {
             alt="billing"
             width={456}
             height={210}
-            className="md:-ml-4 object-cover"
+            className="md:-ml-4 w-[300px] h-[130px] md:h-auto md:w-auto object-fit"
           />
         </div>
 
@@ -46,7 +46,7 @@ const Features = () => {
           </h1>
           <p className="md:text-start text-center text-sm md:text-lg px-10 md:px-0 md:-ml-10">
             Turn everyday spending into extraordinary experiences. Earn buttons
-            (points) on every purchase and unlock a world of rewards &ndash;
+            (points) on every purchase and unlock a world of rewards,
             from travel and cashback to discounts on the latest gadgets.
           </p>
         </div>
